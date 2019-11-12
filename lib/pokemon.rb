@@ -16,6 +16,7 @@ def self.save(name, type, db)
   
 end
 
-def self.find(id_number) 
+def self.find(id_number, db) 
+  
   
 end
