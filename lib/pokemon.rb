@@ -17,7 +17,7 @@ def self.save(name, type, db)
 end
 
 def self.find(id, db) 
-  db.execute("SELECT * FROM pokemon WHERE id = ?;" id)
+  pokemondb.execute("SELECT * FROM pokemon WHERE id = ?;" id)
   
 end
 end
