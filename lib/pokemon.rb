@@ -17,6 +17,6 @@ def self.save(name, type, db)
 end
 
 def self.find(id, db) 
-  db.execute
+  db.execute("select")
   
 end
