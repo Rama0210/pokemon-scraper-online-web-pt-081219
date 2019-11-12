@@ -12,7 +12,7 @@ end
 
 def self.save(name, type, db)
   
-  db.execute(INSERT INTO )
+  db.execute(INSERT INTO pokemon )
   
 end
 end
